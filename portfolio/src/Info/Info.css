@@ -1,0 +1,61 @@
+.info {
+  display: flex;
+  height: 100vh;
+}
+
+.info__sidebar {
+  display: flex;
+  flex: 0.2;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+a > .MuiSvgIcon-root {
+  color: white;
+  margin-top: 20px;
+  height: 50px;
+  width: 50px;
+}
+.info__bio {
+  display: flex;
+  flex: 0.8;
+  flex-direction: column;
+  justify-content: center;
+}
+.info__title {
+  margin-bottom: 20px;
+}
+.info__title > p {
+  color: #64ffb9;
+  font-family: PT Mono;
+  font-size: 20px;
+}
+.info__title > h1 {
+  font-size: 64px;
+  color: white;
+  font-weight: 800;
+  font-family: poppins;
+}
+.info__title > h2 {
+  font-size: 48px;
+  color: rgb(177, 177, 177);
+  font-weight: 800;
+  font-family: poppins;
+}
+.info__about > p {
+  font-size: 20px;
+  color: white;
+  margin: 20px 0px;
+  width: 70%;
+}
+.info__bio > button {
+  width: 150px;
+  height: 55px;
+  border-radius: 17px;
+  border: 1px solid #64ffb9;
+  background-color: transparent;
+  color: #64ffb9;
+  font-family: PT Mono;
+  margin-top: 20px;
+}

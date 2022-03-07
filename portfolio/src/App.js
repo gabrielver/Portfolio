@@ -1,6 +1,8 @@
 import React from "react";
 import "./App.css";
 import Header from "./Header/Header";
+import Info from "./Info/Info";
+import Work from "./Work/Work";
 
 function App() {
   return (
@@ -8,8 +10,8 @@ function App() {
       <Header />
 
       <div className="app__body">
-        {/* <Info /> */}
-        {/* <Work /> */}
+        <Info />
+        <Work />
         {/* <About /> */}
         {/* <Contact />  */}
       </div>
