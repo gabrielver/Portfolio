@@ -1,0 +1,22 @@
+.headerOption {
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 10px 0px;
+}
+.headerOption > h3 {
+  padding-left: 5px;
+  font-size: 15px;
+  display: none;
+}
+.headerOption:hover {
+  background-color: #64ffb9;
+  border-radius: 25px;
+  padding: 0px 5px;
+  margin-top: 5px;
+  color: black;
+}
+.headerOption:hover > h3 {
+  display: block;
+  padding: 5px 0px;
+}

@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50px;
+  border-bottom: 1px solid #64ffb9;
+}
+
+.header__home,
+.header__user,
+.header__work,
+.header__contact {
+  margin-right: 100px;
+}
+.header__home {
+  position: fixed;
+  top: 0px;
+  right: 380px;
+}
+
+.header__user {
+  position: fixed;
+  top: 0px;
+  right: 260px;
+}
+.header__work {
+  position: fixed;
+  top: 0px;
+  right: 140px;
+}
+.header__contact {
+  position: fixed;
+  top: 0px;
+  right: 20px;
+}
