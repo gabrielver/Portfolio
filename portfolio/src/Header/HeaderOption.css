@@ -1,9 +1,12 @@
 .headerOption {
   display: flex;
   align-items: center;
+  justify-content: space-around;
   color: white;
   padding: 10px 0px;
   cursor: pointer;
+  width: 100px;
+  margin-right: 10px;
 }
 .headerOption > h3 {
   padding-left: 5px;
@@ -13,8 +16,9 @@
 .headerOption:hover {
   background-color: #64ffb9;
   border-radius: 25px;
-  padding: 0px 5px;
+  padding: 0;
   margin-top: 5px;
+
   color: black;
 }
 .headerOption:hover > h3 {

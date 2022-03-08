@@ -14,7 +14,7 @@ function Info() {
           </a>
         </IconButton>
         <IconButton>
-          <a href="https://www.linkedin.com/in/gabriel-verronet-4557086b/">
+          <a href="https://www.linkedin.com/in/gabriel-verronet/">
             <LinkedInIcon />
           </a>
         </IconButton>

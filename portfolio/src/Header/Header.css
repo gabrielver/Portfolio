@@ -1,18 +1,21 @@
 .header {
+  position: fixed;
+  top: 0;
+  right: 0;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   height: 50px;
-  border-bottom: 1px solid #64ffb9;
+  border-bottom: 1px solid #64ffda;
 }
 
-.header__home,
+/* .header__home,
 .header__user,
 .header__work,
 .header__contact {
   margin-right: 100px;
-}
-.header__home {
+} */
+/* .header__home {
   position: fixed;
   top: 0px;
   right: 380px;
@@ -32,4 +35,4 @@
   position: fixed;
   top: 0px;
   right: 20px;
-}
+} */
