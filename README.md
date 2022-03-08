@@ -1,4 +1,4 @@
-                                            Gabriel Verronet personnal Portfolio using ReactJS.
+                                  Gabriel Verronet personnal Portfolio using ReactJS.
 
 ![portfolio](https://user-images.githubusercontent.com/47981113/157196153-fdcef01b-c202-4f47-ad11-289029281d4c.png)
 
