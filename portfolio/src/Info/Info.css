@@ -59,3 +59,9 @@ a > .MuiSvgIcon-root {
   font-family: PT Mono;
   margin-top: 20px;
 }
+
+.icon {
+  height: 35px;
+  width: 35px;
+  padding: 5px;
+}

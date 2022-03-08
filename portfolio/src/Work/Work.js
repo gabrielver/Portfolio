@@ -2,13 +2,22 @@ import React from "react";
 import "./Work.css";
 import linkedin from "../images/linkedin.png";
 import gmail from "../images/gmail.png";
+import p4 from "../images/P4 - template 4.png";
+import { ReactComponent as Firebase } from "../images/firebase-icon.svg";
+import { ReactComponent as ReactJS } from "../images/reactjs-icon.svg";
+import { ReactComponent as CSS } from "../images/icons8-css3.svg";
+import { ReactComponent as Vuejs } from "../images/icons8-vuejs.svg";
+import { ReactComponent as Html } from "../images/w3_html5-icon.svg";
+import { ReactComponent as Js } from "../images/javascript-icon.svg";
+import { ReactComponent as MySQL } from "../images/mysql-official.svg";
+
 function Work() {
   return (
     <div className="work">
       <h1>Projets</h1>
       <div className="work__card1">
         <div className="work__number1">01</div>
-        <img src={linkedin} alt="" />
+        <img src={linkedin} alt=" linkedin" />
         <div className="work__button1">
           <button>Voir le site</button>
           <button>Github</button>
@@ -20,15 +29,16 @@ function Work() {
             the ability to post a message on the main wall. Build with ReactJS
           </p>
           <div className="work__icon1">
-            <p>icon1</p>
-            <p>icon2</p>
-            <p>icon3</p>
+            <ReactJS className="icon" />
+            <Firebase className="icon" />
+            <Html className="icon" />
+            <CSS className="icon" />
           </div>
         </div>
       </div>
       <div className="work__card2">
         <div className="work__number2">02</div>
-        <img src={gmail} alt="" />
+        <img src={gmail} alt=" gmail" />
         <div className="work__button2">
           <button>Voir le site</button>
           <button>Github</button>
@@ -40,15 +50,16 @@ function Work() {
             the ability to post a message on the main wall. Build with ReactJS
           </p>
           <div className="work__icon2">
-            <p>icon1</p>
-            <p>icon2</p>
-            <p>icon3</p>
+            <ReactJS className="icon" />
+            <Firebase className="icon" />
+            <Html className="icon" />
+            <CSS className="icon" />
           </div>
         </div>
       </div>
       <div className="work__card1">
         <div className="work__number1">03</div>
-        <img src="portfolio\images\linkedin.png" alt="" />
+        <img src={p4} alt=" p4" />
         <div className="work__button1">
           <button>Voir le site</button>
           <button>Github</button>
@@ -60,9 +71,11 @@ function Work() {
             (authentification, post messages, likes, comment on post)
           </p>
           <div className="work__icon1">
-            <p>icon1</p>
-            <p>icon2</p>
-            <p>icon3</p>
+            <Vuejs className="icon" />
+            <Js className="icon" />
+            <MySQL className="icon" />
+            <Html className="icon" />
+            <CSS className="icon" />
           </div>
         </div>
       </div>
