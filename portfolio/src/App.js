@@ -1,4 +1,5 @@
 import React from "react";
+import About from "./About/About";
 import "./App.css";
 import Header from "./Header/Header";
 import Info from "./Info/Info";
@@ -12,7 +13,7 @@ function App() {
       <div className="app__body">
         <Info />
         <Work />
-        {/* <About /> */}
+        <About />
         {/* <Contact />  */}
       </div>
     </div>

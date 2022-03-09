@@ -6,9 +6,9 @@ import p4 from "../images/P4 - template 4.png";
 import { ReactComponent as Firebase } from "../images/firebase-icon.svg";
 import { ReactComponent as ReactJS } from "../images/reactjs-icon.svg";
 import { ReactComponent as CSS } from "../images/icons8-css3.svg";
-import { ReactComponent as Vuejs } from "../images/icons8-vuejs.svg";
+import { ReactComponent as Vuejs } from "../images/icons8-vuejs (1).svg";
 import { ReactComponent as Html } from "../images/w3_html5-icon.svg";
-import { ReactComponent as Js } from "../images/javascript-icon.svg";
+import { ReactComponent as Js } from "../images/icons8-javascript.svg";
 import { ReactComponent as MySQL } from "../images/mysql-official.svg";
 
 function Work() {
@@ -19,8 +19,12 @@ function Work() {
         <div className="work__number1">01</div>
         <img src={linkedin} alt=" linkedin" />
         <div className="work__button1">
-          <button>Voir le site</button>
-          <button>Github</button>
+          <button>
+            <a href="https://linkedin-clone-c192c.web.app/">Voir le site</a>
+          </button>
+          <button>
+            <a href="https://github.com/gabrielver/Linkedin-Clone">Github</a>
+          </button>
         </div>
         <div className="work__info1">
           <h1>Linkedin Clone</h1>
@@ -40,7 +44,9 @@ function Work() {
         <div className="work__number2">02</div>
         <img src={gmail} alt=" gmail" />
         <div className="work__button2">
-          <button>Voir le site</button>
+          <button>
+            <a href="https://clone-6eed7.web.app/">Voir le site</a>
+          </button>
           <button>Github</button>
         </div>
         <div className="work__info2">

@@ -12,11 +12,11 @@ function Header() {
       <div className="header__home">
         <HeaderOption Icon={HomeIcon} title="Home" selected={true} />
       </div>
-      <div className="header__user">
-        <HeaderOption Icon={PersonOutlineIcon} title="Parcour" />
-      </div>
       <div className="header__work">
         <HeaderOption Icon={WorkOutlineIcon} title="Projets" />
+      </div>
+      <div className="header__user">
+        <HeaderOption Icon={PersonOutlineIcon} title="Parcour" />
       </div>
       <div className="header__contact">
         <HeaderOption Icon={MailOutlineIcon} title="Contact" />

@@ -59,6 +59,10 @@ a > .MuiSvgIcon-root {
   font-family: PT Mono;
   margin-top: 20px;
 }
+button > a {
+  color: inherit;
+  text-decoration: none;
+}
 
 .icon {
   height: 35px;
