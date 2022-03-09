@@ -117,3 +117,24 @@
   top: 10px;
   right: 10px;
 }
+@media screen and (max-width: 820px) {
+  .work__card1 > img {
+    width: 450px;
+    height: 200px;
+  }
+  .work__card2 > img {
+    width: 450px;
+    height: 200px;
+  }
+  .work__info1 > h1 {
+    font-size: 32px;
+  }
+  .work__info2 > h1 {
+    font-size: 32px;
+  }
+  .work__info1 {
+    width: 300px;
+    left: 150px;
+    top: 50px;
+  }
+}
