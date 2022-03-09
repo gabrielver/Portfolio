@@ -49,7 +49,7 @@ a > .MuiSvgIcon-root {
   margin: 20px 0px;
   width: 70%;
 }
-.info__bio > button {
+.info__bio > a > button {
   width: 150px;
   height: 55px;
   border-radius: 17px;
@@ -58,6 +58,7 @@ a > .MuiSvgIcon-root {
   color: #64ffda;
   font-family: PT Mono;
   margin-top: 20px;
+  cursor: pointer;
 }
 button > a {
   color: inherit;

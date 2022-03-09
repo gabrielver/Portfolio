@@ -50,21 +50,21 @@
   font-size: 15px;
   color: #e6f1ff;
 }
-.contact__form {
+.contact__form > form {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.contact__form > input {
+form > input {
   margin: 15px;
   width: 100%;
   padding: 15px 30px;
-  background-color: black;
   border: 1px solid #64ffda;
   border-radius: 20px;
   color: #e6f1ff;
+  background-color: black !important;
 }
-.contact__form > button {
+form > button {
   width: 150px;
   height: 55px;
   border-radius: 15px;
@@ -75,4 +75,9 @@
   margin-top: 20px;
   cursor: pointer;
   margin-bottom: 40px;
+}
+.contact__send {
+  color: #64ffda;
+  font-size: 46px;
+  font-family: PT Mono;
 }

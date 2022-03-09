@@ -10,16 +10,24 @@ function Header() {
   return (
     <div className="header">
       <div className="header__home">
-        <HeaderOption Icon={HomeIcon} title="Home" selected={true} />
+        <a href="#info">
+          <HeaderOption Icon={HomeIcon} title="Home" selected={true} />
+        </a>
       </div>
       <div className="header__work">
-        <HeaderOption Icon={WorkOutlineIcon} title="Projets" />
+        <a href="#work">
+          <HeaderOption Icon={WorkOutlineIcon} title="Projets" />
+        </a>
       </div>
       <div className="header__user">
-        <HeaderOption Icon={PersonOutlineIcon} title="Parcour" />
+        <a href="#about">
+          <HeaderOption Icon={PersonOutlineIcon} title="Parcours" />
+        </a>
       </div>
       <div className="header__contact">
-        <HeaderOption Icon={MailOutlineIcon} title="Contact" />
+        <a href="#contact">
+          <HeaderOption Icon={MailOutlineIcon} title="Contact" />
+        </a>
       </div>
     </div>
   );

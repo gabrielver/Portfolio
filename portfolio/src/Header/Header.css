@@ -8,19 +8,14 @@
   height: 50px;
   border-bottom: 1px solid #64ffda;
 }
-
-/* .header__home,
-.header__user,
-.header__work,
-.header__contact {
-  margin-right: 100px;
-} */
-/* .header__home {
-  position: fixed;
-  top: 0px;
-  right: 380px;
+.header__home > a,
+.header__user > a,
+.header__work > a,
+.header__contact > a {
+  text-decoration: none;
 }
 
+/* 
 .header__user {
   position: fixed;
   top: 0px;

@@ -6,15 +6,23 @@ import { IconButton } from "@mui/material";
 
 function Info() {
   return (
-    <div className="info">
+    <div className="info" id="info">
       <div className="info__sidebar">
         <IconButton>
-          <a href="https://github.com/gabrielver">
+          <a
+            href="https://github.com/gabrielver"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <GitHubIcon />
           </a>
         </IconButton>
         <IconButton>
-          <a href="https://www.linkedin.com/in/gabriel-verronet/">
+          <a
+            href="https://www.linkedin.com/in/gabriel-verronet/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <LinkedInIcon />
           </a>
         </IconButton>
@@ -34,7 +42,10 @@ function Info() {
             dolorem molestias!
           </p>
         </div>
-        <button>Contactez-moi !</button>
+
+        <a href="#contact">
+          <button>Contactez-moi !</button>
+        </a>
       </div>
     </div>
   );

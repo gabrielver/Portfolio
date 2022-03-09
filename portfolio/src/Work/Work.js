@@ -13,7 +13,7 @@ import { ReactComponent as MySQL } from "../images/mysql-official.svg";
 
 function Work() {
   return (
-    <div className="work">
+    <div className="work" id="work">
       <h1>Projets</h1>
       <div className="work__card1">
         <div className="work__number1">01</div>

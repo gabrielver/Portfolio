@@ -19,8 +19,8 @@ import DownloadIcon from "@mui/icons-material/Download";
 
 function About() {
   return (
-    <div className="about">
-      <h1>Parcour</h1>
+    <div className="about" id="about">
+      <h1>Parcours</h1>
       <div className="about__info">
         <h2>Qui suis-je ?</h2>
         <p>
@@ -36,7 +36,7 @@ function About() {
           <DownloadIcon />
         </button>
         <div className="about__techno">
-          <h2>Technologies sur lesquelles j'ai travaillé récement</h2>
+          <h2>Technologies sur lesquelles je travaille régulierement</h2>
           <div className="about__tech">
             <div className="about__details">
               <h3>Langages</h3>
