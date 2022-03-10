@@ -20,10 +20,22 @@ function Work() {
         <img src={linkedin} alt=" linkedin" />
         <div className="work__button1">
           <button>
-            <a href="https://linkedin-clone-c192c.web.app/">Voir le site</a>
+            <a
+              href="https://linkedin-clone-c192c.web.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Voir le site
+            </a>
           </button>
           <button>
-            <a href="https://github.com/gabrielver/Linkedin-Clone">Github</a>
+            <a
+              href="https://github.com/gabrielver/Linkedin-Clone"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Github
+            </a>
           </button>
         </div>
         <div className="work__info1">
@@ -45,9 +57,19 @@ function Work() {
         <img src={gmail} alt=" gmail" />
         <div className="work__button2">
           <button>
-            <a href="https://clone-6eed7.web.app/">Voir le site</a>
+            <a
+              href="https://clone-6eed7.web.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Voir le site
+            </a>
           </button>
-          <button>Github</button>
+          <button>
+            <a href="" target="_blank" rel="noopener noreferrer">
+              Github
+            </a>
+          </button>
         </div>
         <div className="work__info2">
           <h1>Gmail Clone</h1>
@@ -67,8 +89,16 @@ function Work() {
         <div className="work__number1">03</div>
         <img src={p4} alt=" p4" />
         <div className="work__button1">
-          <button>Voir le site</button>
-          <button>Github</button>
+          <button>
+            <a href="" target="_blank" rel="noopener noreferrer">
+              Voir le site
+            </a>
+          </button>
+          <button>
+            <a href="" target="_blank" rel="noopener noreferrer">
+              Github
+            </a>
+          </button>
         </div>
         <div className="work__info1">
           <h1>Chat App</h1>

@@ -72,3 +72,33 @@
   color: #e6f1ff;
   margin-bottom: 20px;
 }
+@media screen and (max-width: 414px) {
+  .about__info {
+    width: 85%;
+  }
+  .about > h1 {
+    font-size: 36px;
+  }
+  .about__info > h2 {
+    font-size: 24px;
+  }
+  .about__info > p {
+    font-size: 15px;
+  }
+  .about__techno > h2 {
+    text-align: center;
+  }
+  .about__details > h3 {
+    font-size: 15px;
+    text-align: center;
+  }
+  .about__details {
+    margin: 0 20px;
+  }
+  button > p {
+    font-size: 13px;
+  }
+  .about__tech {
+    margin-top: 20px;
+  }
+}

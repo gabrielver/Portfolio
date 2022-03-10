@@ -27,6 +27,11 @@
     border: none;
   }
 }
+@media screen and (max-width: 414px) {
+  .header {
+    display: none;
+  }
+}
 /* 
 .header__user {
   position: fixed;

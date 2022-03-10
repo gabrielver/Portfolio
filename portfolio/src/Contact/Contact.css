@@ -64,6 +64,9 @@ form > input {
   color: #e6f1ff;
   background-color: black !important;
 }
+.message {
+  padding: 40px 30px;
+}
 form > button {
   width: 150px;
   height: 55px;
@@ -80,4 +83,34 @@ form > button {
   color: #64ffda;
   font-size: 46px;
   font-family: PT Mono;
+}
+@media screen and (max-width: 414px) {
+  .contact > h1 {
+    font-size: 36px;
+  }
+  .contact__intro > h2 {
+    font-size: 24px;
+  }
+  .contact__intro > p {
+    font-size: 15px;
+  }
+  .contact__email {
+    align-items: flex-start;
+  }
+  .contact__logo > .MuiSvgIcon-root {
+    height: 35px;
+    width: 35px;
+  }
+  .contact__emailInfo > h3 {
+    font-size: 15px;
+  }
+  .contact__emailInfo > p {
+    font-size: 13px;
+  }
+  form > input {
+    margin: 10px 15px;
+  }
+  .message {
+    padding: 40px 30px;
+  }
 }

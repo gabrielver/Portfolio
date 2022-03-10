@@ -1,5 +1,6 @@
 .app {
   position: relative;
   background: #0b192e;
-  width: fit-content;
+  width: 100%;
+  height: 100%;
 }

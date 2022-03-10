@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0 10%;
 }
 .work > h1 {
   font-size: 64px;
@@ -136,5 +137,90 @@
     width: 300px;
     left: 150px;
     top: 50px;
+  }
+}
+@media screen and (max-width: 414px) {
+  .work {
+    margin: 0 15%;
+  }
+  .work__card1 {
+    padding-bottom: 20px;
+    margin-left: 0;
+  }
+  .work__card2 {
+    padding-bottom: 20px;
+    margin-right: 0;
+  }
+  .work__number1 {
+    font-size: 56px;
+    top: -40px;
+    right: -20px;
+  }
+  .work__number2 {
+    font-size: 56px;
+    top: -40px;
+    left: -20px;
+  }
+  .work > h1 {
+    font-size: 36px;
+  }
+  .work__card1 > img {
+    width: 270px;
+    height: 150px;
+  }
+  .work__card2 > img {
+    width: 270px;
+    height: 150px;
+  }
+  .work__info1 > h1 {
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .work__info1 > p {
+    font-size: 12px;
+    text-align: end;
+  }
+
+  .work__info2 > h1 {
+    font-size: 20px;
+  }
+  .work__info2 > p {
+    font-size: 12px;
+  }
+  .work__info1 {
+    width: 197px;
+    left: 70px;
+    top: 50px;
+  }
+  .work__info2 {
+    width: 200px;
+    left: 2px;
+    top: 50px;
+  }
+  .work__icon1 {
+    text-align: end;
+  }
+  .icon {
+    margin-top: 3px;
+    height: 25px;
+    width: 25px;
+  }
+  button > a {
+    font-size: 10px;
+  }
+  .work__button1 {
+    top: 10px;
+    left: 0px;
+  }
+  .work__button2 {
+    top: 10px;
+    right: 0px;
+  }
+  .work__button1 > button {
+    margin-right: 15px;
+  }
+  .work__button2 > button {
+    margin-left: 15px;
   }
 }

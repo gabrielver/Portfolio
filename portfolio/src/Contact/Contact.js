@@ -79,6 +79,7 @@ function Contact() {
             required
           />
           <input
+            className="message"
             type="text"
             name="message"
             placeholder="Message"
