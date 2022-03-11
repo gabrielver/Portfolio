@@ -35,11 +35,9 @@ function Info() {
         </div>
         <div className="info__about">
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum illo
-            veniam maxime blanditiis amet quis dolore itaque, velit dolorem
-            molestias! Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Eum illo veniam maxime blanditiis amet quis dolore itaque, velit
-            dolorem molestias!
+            Je suis developpeur front-end et Backend avec une affection
+            particulière pour les belles interfaces design UX/UI qui apporterons
+            une experience digital exceptionnelle.
           </p>
         </div>
 

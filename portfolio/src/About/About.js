@@ -24,16 +24,17 @@ function About() {
       <div className="about__info">
         <h2>Qui suis-je ?</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia ea
-          recusandae dolores impedit nesciunt odio, voluptate provident, esse
-          molestias iure rerum, corporis distinctio! Odio impedit maiores
-          consequatur nemo adipisci sequi aut. Ut cum atque dolore animi. Vel
-          reiciendis, nisi error ducimus ut vero magnam, exercitationem
-          repellendus voluptas aspernatur, corporis mollitia!
+          Une personne autonome, de nature curieuse, bilingue et passionée de
+          nouvelles technologies. J'accorde beaucoup d'importance à l'experience
+          utilisateur qui influe sur toute l'architecture du site. En
+          apprentissage constent, j'essais de toujours me depasser et de rendre
+          un travail de qualité qui correspondra aux attentes demandées.
         </p>
         <button>
-          <p>CV format PDF</p>
-          <DownloadIcon />
+          <a className="cv" href="/files/CV-GabrielVerronet.pdf" download>
+            <p>CV format PDF</p>
+            <DownloadIcon />
+          </a>
         </button>
         <div className="about__techno">
           <h2>Technologies sur lesquelles je travaille régulierement</h2>
@@ -46,7 +47,7 @@ function About() {
               <CSS className="icon" />
             </div>
             <div className="about__details">
-              <h3>Framework and Database</h3>
+              <h3>Framework et Database</h3>
               <ReactJS className="icon" />
               <Vuejs className="icon" />
               <Sequelize className="icon" />

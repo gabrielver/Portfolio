@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Work.css";
 import linkedin from "../images/linkedin.png";
 import gmail from "../images/gmail.png";
@@ -12,10 +12,20 @@ import { ReactComponent as Js } from "../images/icons8-javascript.svg";
 import { ReactComponent as MySQL } from "../images/mysql-official.svg";
 
 function Work() {
+  const [showCard, setshowCard] = useState("false");
+  const changeCard = () => {
+    if (window.scrollY >= 650) {
+      setshowCard(true);
+    } else {
+      setshowCard(false);
+    }
+  };
+
+  window.addEventListener("scroll", changeCard);
   return (
     <div className="work" id="work">
       <h1>Projets</h1>
-      <div className="work__card1">
+      <div className={`work__card1 ${showCard ? "showCard" : ""} `}>
         <div className="work__number1">01</div>
         <img src={linkedin} alt=" linkedin" />
         <div className="work__button1">
@@ -41,8 +51,9 @@ function Work() {
         <div className="work__info1">
           <h1>Linkedin Clone</h1>
           <p>
-            Here is a Clone of Linkedin with the authentification process and
-            the ability to post a message on the main wall. Build with ReactJS
+            Création d'un clone partiel du site Linkedin. Authentification,
+            création de "post" et affichage instantané du "post" dans le fils
+            d'actualité. Projet réalisé avec ReactJS
           </p>
           <div className="work__icon1">
             <ReactJS className="icon" />
@@ -52,7 +63,7 @@ function Work() {
           </div>
         </div>
       </div>
-      <div className="work__card2">
+      <div className={`work__card2 ${showCard ? "showCard2" : ""} `}>
         <div className="work__number2">02</div>
         <img src={gmail} alt=" gmail" />
         <div className="work__button2">
@@ -74,8 +85,9 @@ function Work() {
         <div className="work__info2">
           <h1>Gmail Clone</h1>
           <p>
-            Here is a Clone of Linkedin with the authentification process and
-            the ability to post a message on the main wall. Build with ReactJS
+            Création de l'interface utilisateur de Gmail. Authentification par
+            compte gmail, création et envoi d'un formulaire "mail", réception
+            des"mails" et affichage de ce dernier . Réalisé avec ReactJS
           </p>
           <div className="work__icon2">
             <ReactJS className="icon" />
@@ -85,7 +97,7 @@ function Work() {
           </div>
         </div>
       </div>
-      <div className="work__card1">
+      <div className={`work__card3 ${showCard ? "showCard" : ""} `}>
         <div className="work__number1">03</div>
         <img src={p4} alt=" p4" />
         <div className="work__button1">
@@ -103,8 +115,9 @@ function Work() {
         <div className="work__info1">
           <h1>Chat App</h1>
           <p>
-            Creation from scratch of a company social plateform
-            (authentification, post messages, likes, comment on post)
+            Réseau social d'entreprise avec authentification, messagerie type
+            "mur facebook". Possibilité de poster une image, liker et commenter
+            les posts ainsi que liker les commentaires. Crée avec VueJS
           </p>
           <div className="work__icon1">
             <Vuejs className="icon" />

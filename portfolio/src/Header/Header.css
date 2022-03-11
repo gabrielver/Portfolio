@@ -1,4 +1,12 @@
 .header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: #0b192e;
+}
+
+.header__nav {
   position: fixed;
   top: 0;
   right: 0;
@@ -8,43 +16,82 @@
   height: 50px;
   border-bottom: 1px solid #64ffda;
 }
-.header__home > a,
-.header__user > a,
-.header__work > a,
-.header__contact > a {
+.navbar {
+  position: fixed;
+  right: 0px;
+  height: 92vh;
+  width: 8vh;
+  top: 8vh;
+  background-color: #0b192e;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  border: none;
+  transform: translateX(200%);
+  transition: transform 0.5s ease-in;
+}
+.header__div > a {
   text-decoration: none;
 }
 
+.active {
+  transform: translateX(0%);
+}
+.burger {
+  display: none;
+}
+.nav {
+  position: fixed;
+  right: 15px;
+  display: block;
+  cursor: pointer;
+}
+.burger > div {
+  width: 25px;
+  height: 2px;
+  background-color: whitesmoke;
+  margin: 5px;
+  transition: 0.3s ease;
+}
+.active {
+  transform: translateX(0%);
+}
+.change > .line1 {
+  transform: rotate(-45deg) translate(-5px, 5px);
+}
+.change > .line2 {
+  opacity: 0;
+}
+.change > .line3 {
+  transform: rotate(45deg) translate(-5px, -5px);
+}
 @media screen and (max-width: 820px) {
   .header {
+    justify-content: flex-end;
+    margin-right: 5%;
+  }
+  .header__nav {
     position: fixed;
+    right: 0;
+    height: 92vh;
+    width: 8vh;
+    top: 8vh;
+    background-color: #0b192e;
     flex-direction: column;
-    justify-content: space-around;
-    top: 0;
-    transform: translatey(50%);
-    right: 6%;
-    height: 400px;
+    justify-content: space-evenly;
+    align-items: flex-end;
     border: none;
+    transform: translateX(200%);
+    transition: transform 0.5s ease-in;
+  }
+  .active {
+    transform: translateX(0%);
+  }
+
+  .burger {
+    position: fixed;
+    right: 15px;
+    display: block;
+    cursor: pointer;
   }
 }
-@media screen and (max-width: 414px) {
-  .header {
-    display: none;
-  }
-}
-/* 
-.header__user {
-  position: fixed;
-  top: 0px;
-  right: 260px;
-}
-.header__work {
-  position: fixed;
-  top: 0px;
-  right: 140px;
-}
-.header__contact {
-  position: fixed;
-  top: 0px;
-  right: 20px;
-} */
