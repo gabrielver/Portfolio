@@ -14,7 +14,7 @@ import { ReactComponent as MySQL } from "../images/mysql-official.svg";
 function Work() {
   const [showCard, setshowCard] = useState("false");
   const changeCard = () => {
-    if (window.scrollY >= 650) {
+    if (window.scrollY >= 250) {
       setshowCard(true);
     } else {
       setshowCard(false);
@@ -97,7 +97,7 @@ function Work() {
           </div>
         </div>
       </div>
-      <div className={`work__card3 ${showCard ? "showCard" : ""} `}>
+      {/* <div className={`work__card3 ${showCard ? "showCard" : ""} `}>
         <div className="work__number1">03</div>
         <img src={p4} alt=" p4" />
         <div className="work__button1">
@@ -107,7 +107,11 @@ function Work() {
             </a>
           </button>
           <button>
-            <a href="" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://github.com/gabrielver/P7_vue"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Github
             </a>
           </button>
@@ -127,7 +131,7 @@ function Work() {
             <CSS className="icon" />
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

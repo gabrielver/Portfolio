@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  min-height: 8vh;
+  padding-top: 15px;
   background-color: #0b192e;
 }
 
@@ -43,6 +43,7 @@
 .nav {
   position: fixed;
   right: 15px;
+  top: 15px;
   display: block;
   cursor: pointer;
 }
@@ -66,13 +67,64 @@
   transform: rotate(45deg) translate(-5px, -5px);
 }
 @media screen and (max-width: 820px) {
-  .header {
-    justify-content: flex-end;
-    margin-right: 5%;
+  /* .header__nav {
+    position: fixed;
+    right: 0px;
+    height: 92vh;
+    width: 8vh;
+    top: 8vh;
+    background-color: #0b192e;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    border: none;
+    /transform: translateX(200%); 
+    transition: transform 0.5s ease-in;
+  } 
+   .active {
+    transform: translateX(0%);
+  }  */
+
+  /* .burger {
+    position: fixed;
+    right: 15px;
+    top: 15px;
+    display: block;
+    cursor: pointer;
+  }
+  .change {
+    position: fixed;
+    right: 15px;
+    top: 15px;
+    display: block;
+    cursor: pointer;
+  }
+  .change > .line1 {
+    transform: rotate(-45deg) translate(-5px, 5px);
+  }
+  .change > .line2 {
+    opacity: 0;
+  }
+  .change > .line3 {
+    transform: rotate(45deg) translate(-5px, -5px);
+  }*/
+  .navbar {
+    position: fixed;
+    right: 0px;
+    height: 92vh;
+    width: 8vh;
+    top: 8vh;
+    background-color: #0b192e;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    border: none;
+    transform: translateX(200%);
+    transition: transform 0.5s ease-in;
   }
   .header__nav {
     position: fixed;
-    right: 0;
+    right: 0px;
     height: 92vh;
     width: 8vh;
     top: 8vh;
@@ -86,10 +138,26 @@
   }
   .active {
     transform: translateX(0%);
+    position: fixed;
+    top: 0;
   }
-
   .burger {
     position: fixed;
+    right: 15px;
+    top: 15px;
+    display: block;
+    cursor: pointer;
+  }
+  .nav {
+    position: fixed;
+    right: 15px;
+    top: 15px;
+    display: block;
+    cursor: pointer;
+  }
+  .change {
+    position: fixed;
+    top: 15px;
     right: 15px;
     display: block;
     cursor: pointer;

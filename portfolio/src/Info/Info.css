@@ -123,3 +123,17 @@ button > a {
     width: 100%;
   }
 }
+@media screen and (max-width: 390px) {
+  .info {
+    justify-content: center;
+  }
+  .info__sidebar {
+    align-items: flex-start;
+  }
+  .info__bio {
+    justify-content: flex-start;
+  }
+  a > .MuiSvgIcon-root {
+    margin-top: 0px;
+  }
+}

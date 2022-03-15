@@ -108,3 +108,8 @@
     margin-top: 20px;
   }
 }
+@media screen and (max-width: 390px) {
+  .about {
+    padding-top: 100px;
+  }
+}

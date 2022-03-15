@@ -37,7 +37,7 @@ function Info() {
           <p>
             Je suis developpeur front-end et Backend avec une affection
             particulière pour les belles interfaces design UX/UI qui apporterons
-            une experience digital exceptionnelle.
+            une experience digitale exceptionnelle.
           </p>
         </div>
 

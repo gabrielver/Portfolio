@@ -114,3 +114,9 @@ form > button {
     padding: 40px 30px;
   }
 }
+@media screen and (max-width: 390px) {
+  .contact {
+    padding-top: 100px;
+    height: fit-content;
+  }
+}
